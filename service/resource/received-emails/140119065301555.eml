@@ -1,0 +1,27 @@
+        Mon, 14 Jan 2019 18:53:01 +0100 (CET)
+Date: Mon, 14 Jan 2019 18:53:01 +0100 (CET)
+To: antimo@gmail.com
+Message-ID: <1818836378.3.1547488381547@linuxlavoro>
+Subject: Test mail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_1_440347172.1547488381240"
+
+------=_Part_1_440347172.1547488381240
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_1439030568.1547488381242"
+
+------=_Part_2_1439030568.1547488381242
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Content of the email 
+------=_Part_2_1439030568.1547488381242--
+
+------=_Part_1_440347172.1547488381240
+Content-Type: application/octet-stream; name=Invoice
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=Invoice
+
+
+------=_Part_1_440347172.1547488381240--

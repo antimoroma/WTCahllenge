@@ -1,0 +1,9 @@
+/media/antimo/Disk2LinuxLavoro/programming/CodeChallenge/WebTreek/service/src/main/java/org/webtrekk/mailsender/service/MailSenderService.java
+/media/antimo/Disk2LinuxLavoro/programming/CodeChallenge/WebTreek/service/src/main/java/org/webtrekk/mailsender/controller/exception/GlobalExceptionHandler.java
+/media/antimo/Disk2LinuxLavoro/programming/CodeChallenge/WebTreek/service/src/main/java/org/webtrekk/mailsender/controller/exception/InvalidURISyntaxException.java
+/media/antimo/Disk2LinuxLavoro/programming/CodeChallenge/WebTreek/service/src/main/java/org/webtrekk/mailsender/Application.java
+/media/antimo/Disk2LinuxLavoro/programming/CodeChallenge/WebTreek/service/src/main/java/org/webtrekk/mailsender/configuration/MailConfiguration.java
+/media/antimo/Disk2LinuxLavoro/programming/CodeChallenge/WebTreek/service/src/main/java/org/webtrekk/mailsender/configuration/SwaggerConfiguration.java
+/media/antimo/Disk2LinuxLavoro/programming/CodeChallenge/WebTreek/service/src/main/java/org/webtrekk/mailsender/controller/MailSenderController.java
+/media/antimo/Disk2LinuxLavoro/programming/CodeChallenge/WebTreek/service/src/main/java/org/webtrekk/mailsender/service/EmailService.java
+/media/antimo/Disk2LinuxLavoro/programming/CodeChallenge/WebTreek/service/src/main/java/org/webtrekk/mailsender/configuration/AsyncConfiguration.java
