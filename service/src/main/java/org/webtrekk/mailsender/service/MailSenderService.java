@@ -41,18 +41,6 @@ public class MailSenderService implements EmailService {
     }
 
 
-    @Async("ThreadPoolMailSender")
-    @Override
-    public Future<Boolean> sendMailMessage(String to, String subject, String text) {
-
-        SimpleMailMessage message = getSimpleMailMessage(to, subject, text);
-
-        boolean mailSent = false;
-
-        mailSent = isMailSent(message);
-
-        return new AsyncResult<Boolean>(mailSent);
-    }
 
     @Async("ThreadPoolMailSender")
     @Override
@@ -61,18 +49,18 @@ public class MailSenderService implements EmailService {
         MimeMessage message;
         try {
             message = populateMimeMessage(to, subject, text, attachmentURI );
+            mailSent = isMailSentMimeType(message);
         } catch (Exception e) {
             logger.error("Can,t send mail with attachment " + e.getMessage());
             e.printStackTrace();
+            // TODO : save this mail with the error maybe in a Kafka topic
             return new AsyncResult<Boolean>(mailSent);
         }
-
-        mailSent = isMailSentMimeType(message);
 
         return new AsyncResult<Boolean>(mailSent);
     }
 
-    protected MimeMessage populateMimeMessage(String to, String subject, String text, String attachmentURI)  throws MessagingException {
+    protected MimeMessage populateMimeMessage(String to, String subject, String text, String attachmentURI) throws MessagingException, IOException {
         MimeMessage message = emailSender.createMimeMessage();
         File tempFile = null;
 
@@ -85,9 +73,11 @@ public class MailSenderService implements EmailService {
             tempFile = getFileFromURI(attachmentURI);
             helper.addAttachment("Pdf test", tempFile);
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("Error creating file for attachment");
+            throw e;
         } catch (MessagingException e) {
-            e.printStackTrace();
+            logger.error("MessagingException while adding attachment to mail");
+            throw e;
         } finally {
             if (tempFile != null) tempFile.delete();
         }
@@ -111,7 +101,7 @@ public class MailSenderService implements EmailService {
     }
 
 
-    protected boolean isMailSentMimeType(MimeMessage message) {
+    protected boolean isMailSentMimeType(MimeMessage message) throws MailSendException{
         boolean mailSent = false;
         for (int sendAttempt = 1; sendAttempt < retryNumber; sendAttempt++) {
 
@@ -119,7 +109,12 @@ public class MailSenderService implements EmailService {
                 emailSender.send(message);
                 mailSent = true;
             } catch (MailException exception) {
-                logInfoAndWaitIfNeeded(sendAttempt, exception);
+                if (sendAttempt <3 )
+                    logInfoAndWaitIfNeeded(sendAttempt, exception);
+                else {
+                    // Unable to sent mail report error
+                    throw exception;
+                }
             }
         }
         return mailSent;

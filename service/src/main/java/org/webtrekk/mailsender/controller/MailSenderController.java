@@ -20,29 +20,6 @@ public class MailSenderController {
     @Autowired
     MailSenderService mailSenderService;
 
-
-    // String to, String subject, String text, URI AttachmentURI
-/*    @GetMapping("/sendMail")
-    public void sendMail1(
-            @RequestParam String to ,
-            @RequestParam String subject,
-            @RequestParam String text,
-            @RequestParam(required = false) String attachmentURI
-    ){
-
-        // TODO return HTTP error code
-        URI uri = null;
-        try {
-            uri = new URI(attachmentURI);
-        } catch (URISyntaxException e) {
-            throw new InvalidURISyntaxException();
-        }
-
-        mailSenderService.sendMailMessage(to,subject,text);
-
-    }*/
-
-    // String to, String subject, String text, URI AttachmentURI
     @PutMapping("/sendMail")
     public void sendMail(
             @RequestParam String to ,

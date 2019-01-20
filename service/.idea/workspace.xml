@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1cc3260-7021-4003-b35d-e23749be9692" name="Default Changelist" comment="" />
+    <list default="true" id="a1cc3260-7021-4003-b35d-e23749be9692" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../configuration-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../configuration-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/controller/MailSenderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/controller/MailSenderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/service/MailSenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/service/MailSenderService.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,33 +18,65 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/webtrekk/mailsender/service/MailSenderServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="796">
+              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/controller/exception/GlobalExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/controller/exception/InvalidURISyntaxException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/webtrekk/mailsender/service/MailSenderServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/service/MailSenderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+            <state relative-caret-position="570">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/webtrekk/mailsender/Controller/MailSenderControllerTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/service/EmailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="105">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/controller/MailSenderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -54,26 +92,40 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/org/webtrekk/mailsender/Controller/MailSenderControllerTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/webtrekk/mailsender/service/MailSenderServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/controller/MailSenderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/service/EmailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/service/MailSenderService.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1910" />
-    <option name="height" value="1051" />
+    <option name="x" value="1280" />
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,7 +166,126 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mailsender" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mailsender" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mailsender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mailsender" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mailsender" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sun.mail:javax.mail:1.6.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sun.mail:javax.mail:1.6.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.mail-1.6.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sun.mail:javax.mail:1.6.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.mail-1.6.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codechallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,7 +395,9 @@
       <option name="presentableId" value="Default" />
       <updated>1547820700838</updated>
       <workItem from="1547820705239" duration="493000" />
-      <workItem from="1547821334161" duration="2468000" />
+      <workItem from="1547821334161" duration="3218000" />
+      <workItem from="1547828796346" duration="301000" />
+      <workItem from="1548004843076" duration="4645000" />
     </task>
     <servers />
   </component>
@@ -244,23 +417,32 @@
     <history-entry file="MailSenderServiceTest - 2019.01.18 at 16h 56m 58s.xml">
       <configuration name="MailSenderServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MailSenderServiceTest_MimeMessageShouldFailIfMailServerFail - 2019.01.18 at 16h 58m 21s.xml">
+      <configuration name="MailSenderServiceTest.MimeMessageShouldFailIfMailServerFail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MailSenderServiceTest_MimeMessageShouldFailIfMailServerFail - 2019.01.18 at 16h 58m 58s.xml">
+      <configuration name="MailSenderServiceTest.MimeMessageShouldFailIfMailServerFail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MailSenderServiceTest_MimeMessageShouldFailIfMailServerFail - 2019.01.18 at 17h 00m 18s.xml">
+      <configuration name="MailSenderServiceTest.MimeMessageShouldFailIfMailServerFail" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2961000" />
+    <option name="totallyTimeSpent" value="8657000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
+    <frame x="1280" y="-1" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17075774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23730685" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.22406182" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23730685" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22430938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -296,9 +478,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/service/MailSenderService.java</url>
-          <line>91</line>
+          <line>81</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/service/MailSenderService.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -307,6 +495,20 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/webtrekk/mailsender/Controller/MailSenderControllerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -314,24 +516,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/webtrekk/mailsender/Controller/MailSenderControllerTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/webtrekk/mailsender/service/MailSenderServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="796">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/webtrekk/mailsender/service/MailSenderServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/controller/exception/GlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+        <state relative-caret-position="75">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/controller/exception/InvalidURISyntaxException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/controller/MailSenderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/service/EmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/mail/javax.mail/1.6.1/javax.mail-1.6.1.jar!/javax/mail/MessagingException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/webtrekk/mailsender/service/MailSenderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        <state relative-caret-position="570">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
         </state>
       </provider>
     </entry>
